@@ -41,9 +41,7 @@ struct MeetingView: View {
                 }
             }
         }
-        .background(.red)
         .padding()
-        .background(.yellow, ignoresSafeAreaEdges: [])
     }
 }
 
