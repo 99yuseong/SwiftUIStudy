@@ -20,7 +20,6 @@ struct CardView: View {
                 Spacer()
                 Label("\(scrum.lengthInMinutes)", systemImage: "clock")
                     .labelStyle(.trailingIcon)
-                    .background(.red)
             }
             .font(.caption)
         }
