@@ -30,5 +30,4 @@ struct CardView: View {
 
 #Preview(traits: .fixedLayout(width: 400, height: 60)) {
     CardView(scrum: DailyScrum.mockUp[0])
-        .background(.yellow)
 }

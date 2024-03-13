@@ -25,7 +25,7 @@ struct ThemePicker: View {
         Text(theme.name)
             .padding(4)
             .frame(maxWidth: .infinity)
-            .background(.yellow)
+            .background(theme.mainColor)
             .foregroundStyle(theme.accentColor)
             .clipShape(RoundedRectangle(cornerRadius: 4))
     }

@@ -25,6 +25,8 @@
 		428FCFED2BA1C81600BE13C8 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 428FCFEC2BA1C81600BE13C8 /* ding.wav */; };
 		428FCFF02BA1C82E00BE13C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428FCFEF2BA1C82E00BE13C8 /* Assets.xcassets */; };
 		428FCFF22BA1C86B00BE13C8 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428FCFF12BA1C86B00BE13C8 /* ScrumProgressViewStyle.swift */; };
+		428FCFF42BA1CC9500BE13C8 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428FCFF32BA1CC9500BE13C8 /* NewScrumSheet.swift */; };
+		428FCFF62BA1D00A00BE13C8 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428FCFF52BA1D00A00BE13C8 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		428FCFEC2BA1C81600BE13C8 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		428FCFEF2BA1C82E00BE13C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../../Downloads/ManagingStateAndLifeCycle/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 		428FCFF12BA1C86B00BE13C8 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		428FCFF32BA1CC9500BE13C8 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
+		428FCFF52BA1D00A00BE13C8 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				425BAEED2B9DA6B4004EBFF8 /* DailyScrum.swift */,
+				428FCFF52BA1D00A00BE13C8 /* History.swift */,
 				428FCFE32BA1C0E800BE13C8 /* ScrumTimer.swift */,
 				428FCFE82BA1C80200BE13C8 /* AVPlayer+Ding.swift */,
 			);
@@ -85,6 +90,7 @@
 			children = (
 				425BAEF32B9DD00A004EBFF8 /* ScrumsView.swift */,
 				425BAEEF2B9DA7AF004EBFF8 /* CardView.swift */,
+				428FCFF32BA1CC9500BE13C8 /* NewScrumSheet.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428FCFF62BA1D00A00BE13C8 /* History.swift in Sources */,
 				425BAEFE2B9DE6D0004EBFF8 /* ThemePicker.swift in Sources */,
 				425BAEEE2B9DA6B4004EBFF8 /* DailyScrum.swift in Sources */,
 				428FCFF22BA1C86B00BE13C8 /* ScrumProgressViewStyle.swift in Sources */,
@@ -255,6 +262,7 @@
 				425BAEEC2B9DA5A8004EBFF8 /* Theme.swift in Sources */,
 				425BAEF42B9DD00A004EBFF8 /* ScrumsView.swift in Sources */,
 				428FCFE92BA1C80200BE13C8 /* AVPlayer+Ding.swift in Sources */,
+				428FCFF42BA1CC9500BE13C8 /* NewScrumSheet.swift in Sources */,
 				4287CAF32B9D77AE000611B2 /* MeetingView.swift in Sources */,
 				4287CAF12B9D77AE000611B2 /* ScrumdingerApp.swift in Sources */,
 				425BAEF02B9DA7AF004EBFF8 /* CardView.swift in Sources */,
